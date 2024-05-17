@@ -7,7 +7,7 @@ El repositorio se ha creado a fin hacer disponible públicamente al jurado y a f
 
 ## Contenidos
 - [Descripción del Proyecto](#descripción)
-- [Sistema operativo](#Sistema Operativo)
+- [Sistema operativo](#Sistema-Operativo)
 - [Instalación](#instalación)
 - [Configuración de Docker Compose](#configuración-de-docker-compose)
 - [Estructura del Repositorio](#estructura-del-repositorio)
