@@ -8,8 +8,9 @@ El repositorio se ha creado a fin hacer disponible públicamente al jurado y a f
 ## Contenidos
 - [Descripción del Proyecto](#descripción)
 - [Sistema operativo](#Sistema-Operativo)
-- [Instalación](#instalación)
-- [Configuración de Docker Compose](#configuración-de-docker-compose)
+- [Instalación de Docker y Docker Compose](#instalación)
+- [El archivo de configuracion YAML del contenedor WirwGuard](#Archivo-YAML)
+- [Comandos para manejo y configuración de servicio con Docker y Docker Compose](#configuración-de-docker-compose)
 - [Estructura del Repositorio](#estructura-del-repositorio)
 
 
@@ -19,8 +20,13 @@ Justificacón del sistema operativo seleccionado como base para Docker [SO.md](S
 ## Instalación
 Para instrucciones detalladas sobre cómo instalar Docker y Docker Compose, consulta [INSTALLATION.md](INSTALLATION.md).
 
-## Configuración de Docker Compose
+## Archivo YAML
 El archivo `docker-compose.yaml` se utiliza para configurar y desplegar el servicio WireGuard. Para una explicación detallada, consulta [DOCKER_COMPOSE_SETUP.md](DOCKER_COMPOSE_SETUP.md).
+
+## Comandos para manejo y configuración de servicio con Docker y Docker Compose
+Puedes consultar los principales comandos utilizados para el manejo del servicio en este proyecto en [DOCKER_COMMADNS.md](DOCKER_COMMADNS.md).
+
+
 
 ## Estructura del Repositorio
 - `README.md`: Descripción general del proyecto.
