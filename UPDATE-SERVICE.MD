@@ -2,7 +2,7 @@
 
 Durante el periodo de pruebas, me he encontrado con que la versión de WireGuard Easy que se está usando en este proyecto tiene una actualización disponible que se ha notificado directamente en la consola de administración de usuarios.
 
-![alt text](update.png)
+![alt text](update1.png)
 
 La ocasión ha sido perfecta para demostrar una vez más las ventajas de haber elegido desplegar el servicio sobre un contenedor Docker, ya que el proceso de actualización es bastante simple y toma apenas un par de minutos. Remitiéndome al propio repositorio de GitHub, en la sección de actualizaciones (updating), encontramos instrucciones simples que pasan por detener el servicio, eliminar la imagen actual, adquirir la nueva imagen y poner en marcha nuevamente el servicio.
 
