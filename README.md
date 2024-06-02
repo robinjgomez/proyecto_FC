@@ -45,6 +45,7 @@ Para mantener su servidor actualizado, siga las instrucciones en [UPDATE-SERVICE
 
 ## Licencia
 
+En este apartado se realizan las Atribución de Tecnologías de Código Abierto correpondientes según las licencias de Wireguard y Dockers
 Este proyecto está licenciado bajo los términos de la [Licencia MIT](licence.md).
 
 ---
