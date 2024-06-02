@@ -6,7 +6,7 @@ Este proyecto está licenciado bajo los términos de la Licencia MIT. Esto signi
 
 MIT License
 
-© 2024 [Tu Nombre o Nombre de la Organización]
+© 2024 Robin Gómez Rodríguez
 
 Se concede permiso, por la presente, sin cargo, a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software"), para tratar en el Software sin restricción, incluyendo, sin limitación, los derechos para usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y para permitir a las personas a quienes se les proporcione el Software a hacerlo, sujeto a las siguientes condiciones:
 
