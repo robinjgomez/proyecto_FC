@@ -1,7 +1,7 @@
 # Proyecto FC: Implementación de Servidor VPN Wireguard con Docker
 
 Este repositorio forma parte del proyecto de fin de curso del ciclo superior de ASIR, titulado "Implementación de servidor VPN Wireguard con Docker", elaborado por Robin Gómez Rodríguez.
-<br><img src="images/wireguard-logo.png" alt="Wireguard Logo" width="200"/>
+<br><br><img src="images/wireguard-logo.png" alt="Wireguard Logo" width="400"/>
 
 ## Contenido
 
