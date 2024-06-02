@@ -45,7 +45,7 @@ Para mantener su servidor actualizado, siga las instrucciones en [UPDATE-SERVICE
 
 ## Licencia
 
-Este proyecto está licenciado bajo los términos de la [Licencia MIT](LICENSE).
+Este proyecto está licenciado bajo los términos de la [Licencia MIT](licence.md).
 
 ---
 
