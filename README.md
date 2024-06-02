@@ -19,6 +19,7 @@ Este proyecto describe cómo implementar un servidor VPN utilizando Wireguard y 
 
 ## Requisitos
 ![Docker Logo](images/docker-logo-blue.png)
+<img src="images/docker-logo-blue.png" alt="Docker Logo" width="100"/>
 - Docker
 - Docker Compose
 
