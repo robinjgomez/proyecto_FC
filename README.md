@@ -19,9 +19,8 @@ Este repositorio forma parte del proyecto de fin de curso del ciclo superior de 
 Este proyecto describe cómo implementar un servidor VPN utilizando Wireguard y Docker. Wireguard es un protocolo VPN moderno, simple y rápido que utiliza criptografía de última generación.
 
 ## Requisitos
-<img src="images/docker-logo-blue.png" alt="Docker Logo" width="100"/><br>
+<img src="images/docker-logo-blue.png" alt="Docker Logo" width="100"/> <img src="images/logo_docker_compose.png" alt="Docker Logo" width="100"/> <br>
 - Docker
-<img src="images/logo_docker_compose.png" alt="Docker Logo" width="100"/><br>
 - Docker Compose
 
 ## Instalación
