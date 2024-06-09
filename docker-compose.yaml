@@ -1,38 +1,35 @@
 version: "3.8"
 
 volumes:
-  etc_wireguard:
+  wireguard:
 
 services:
   wg-easy:
     environment:
-      # Change Language:
-      # (Supports: en, ua, ru, tr, no, pl, fr, de, ca, es, ko, vi, nl, is, pt, chs, cht, it, th, hi)
-      - LANG=de
-      # ⚠️ Required:
-      # Change this to your host's public address
-      - WG_HOST=raspberrypi.local
+      # Seleccion de Idioma:
+      # (Idiomas soportados: en, ua, ru, tr, no, pl, fr, de, ca, es, ko, vi, nl, is, pt, chs, cht, it, >
+      - LANG=es
+      # Required:
+      # Aquí tu ip pública o nombre de dominio.
+      - WG_HOST=84.124.178.137
 
-      # Optional:
-      # - PASSWORD=foobar123
+      # Configuraciones opcionales, a las opciones comentadas se aplicara el valor por defecto:
+      # Establezca un pasword para la interfaz de administración de usuarios
+      - PASSWORD=proyecto_FC
       # - PORT=51821
       # - WG_PORT=51820
-      # - WG_DEFAULT_ADDRESS=10.8.0.x
-      # - WG_DEFAULT_DNS=1.1.1.1
+      # - WG_DEFAULT_ADDRESS=10.0.0.x
+      - WG_DEFAULT_DNS=8.8.8.8
       # - WG_MTU=1420
       # - WG_ALLOWED_IPS=192.168.15.0/24, 10.0.1.0/24
       # - WG_PERSISTENT_KEEPALIVE=25
-      # - WG_PRE_UP=echo "Pre Up" > /etc/wireguard/pre-up.txt
-      # - WG_POST_UP=echo "Post Up" > /etc/wireguard/post-up.txt
-      # - WG_PRE_DOWN=echo "Pre Down" > /etc/wireguard/pre-down.txt
-      # - WG_POST_DOWN=echo "Post Down" > /etc/wireguard/post-down.txt
-      # - UI_TRAFFIC_STATS=true
-      # - UI_CHART_TYPE=0 # (0 Charts disabled, 1 # Line chart, 2 # Area chart, 3 # Bar chart)
+      - UI_TRAFFIC_STATS=true
+      - UI_CHART_TYPE=3 # (0 Charts disabled, 1 # Line chart, 2 # Area chart, 3 # Bar chart)
 
     image: ghcr.io/wg-easy/wg-easy
     container_name: wg-easy
     volumes:
-      - etc_wireguard:/etc/wireguard
+      - wireguard:/etc/wireguard
     ports:
       - "51820:51820/udp"
       - "51821:51821/tcp"
