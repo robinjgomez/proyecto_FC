@@ -20,9 +20,9 @@ EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O 
 
 Este proyecto utiliza las siguientes tecnologías de código abierto:
 
-- **Docker:** Docker es una plataforma de código abierto que permite automatizar el despliegue de aplicaciones dentro de contenedores de software. Docker está licenciado bajo la [Licencia Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). Según la licencia Apache, debes incluir un aviso de atribución que mencione el uso de Docker en tu documentación y el archivo de licencia del proyecto.
+- **[Docker](https://www.docker.com/):** Docker es una plataforma de código abierto que permite automatizar el despliegue de aplicaciones dentro de contenedores de software. Docker está licenciado bajo la [Licencia Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). Según la licencia Apache, debes incluir un aviso de atribución que mencione el uso de Docker en tu documentación y el archivo de licencia del proyecto.
 
-- **Wireguard:** Wireguard es un protocolo VPN moderno, rápido y seguro. Wireguard está licenciado bajo la [Licencia GPL-2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html). Según la licencia GPL-2.0, cualquier distribución de Wireguard debe incluir el código fuente o un enlace a donde se puede obtener, así como la misma licencia GPL.
+- **[Wireguard](https://www.wireguard.com/):** Wireguard es un protocolo VPN moderno, rápido y seguro. Wireguard está licenciado bajo la [Licencia GPL-2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html). Según la licencia GPL-2.0, cualquier distribución de Wireguard debe incluir el código fuente o un enlace a donde se puede obtener, así como la misma licencia GPL.
 
 - **[WireGuard Easy ©](https://github.com/wg-easy/wg-easy):** 2021-2024 por Emile Nijssen licenciado bajo [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
 
