@@ -1,6 +1,6 @@
 # Otras configuraciones de gran importancia para el correcto funcionamiento del servicio
 
-Abrir puerto en router
+## Abrir puerto en router
 Un paso adicional muy importante, previo a realizar pruebas, es asegurarnos de que podamos alcanzar el servidor VPN desde el exterior. Para ello, debemos abrir el puerto configurado, en este ejemplo el 51820, y redirigir todas las peticiones a través de este puerto hacia nuestro servidor VPN, que hemos configurado en la dirección 192.168.0.94.
 Abrir el puerto correspondiente y configurar la redirección dependerá de nuestra red. Conociendo la dirección de la red, debemos acceder a la IP de configuración del router, la cual puede variar en función del modelo y configuraciones previas de la red. En la mayoría de los casos, nos encontraremos con un router proporcionado por el ISP o un sustituto de uso doméstico. En cualquier caso, es necesario investigar previamente la configuración de la red.
 Para este ejemplo, simplemente haremos referencia a la configuración básica necesaria en un dispositivo doméstico del proveedor ISP Vodafone.
