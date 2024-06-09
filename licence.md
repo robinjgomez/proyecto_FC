@@ -24,4 +24,6 @@ Este proyecto utiliza las siguientes tecnologías de código abierto:
 
 - **Wireguard:** Wireguard es un protocolo VPN moderno, rápido y seguro. Wireguard está licenciado bajo la [Licencia GPL-2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html). Según la licencia GPL-2.0, cualquier distribución de Wireguard debe incluir el código fuente o un enlace a donde se puede obtener, así como la misma licencia GPL.
 
+- **Wireguard ©:** 2021-2024 por Emile Nijssen licenciado bajo [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
+
 Por favor, asegúrate de revisar y cumplir con las licencias respectivas de estas tecnologías cuando utilices y distribuyas este software.
